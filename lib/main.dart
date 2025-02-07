@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:notes/views/notes_view.dart';
 
 void main() {
   runApp(const NotesApp());
@@ -7,9 +8,11 @@ void main() {
 class NotesApp extends StatelessWidget {
   const NotesApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return MaterialApp(
+      theme: ThemeData.dark(),
+      home: const NotesView(),
+    );
   }
 }
