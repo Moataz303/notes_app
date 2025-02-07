@@ -12,12 +12,13 @@ class CustomIcon extends StatelessWidget {
         color: Colors.white.withOpacity(0.06),
         borderRadius: BorderRadius.circular(16),
       ),
-
-      child:  IconButton(
-        onPressed: (){},
-        icon: Icon(icon,size: 28,),
+      child: IconButton(
+        onPressed: () {},
+        icon: Icon(
+          icon,
+          size: 28,
         ),
-      );
-
+      ),
+    );
   }
 }
